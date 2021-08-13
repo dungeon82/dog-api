@@ -1,0 +1,40 @@
+#gallery {
+  border: 2px solid black;
+  width: 100%;
+}
+
+img {
+  width: 200px;
+  margin: 20px;
+}
+
+input#breed-input {
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+}
+
+div#controls {
+  /*background: green; */
+  background-color: lightseagreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input#breed-input:focus {
+  box-shadow: 0px 0px 15px yellow;
+}
+button#search-button {
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+
+div#title-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
